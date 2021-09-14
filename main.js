@@ -447,19 +447,19 @@ const handle_left_click = () => {
     left_clicked = true;
     if(first_click){
         count = 3;
-        carousel_section.style.backgroundImage = `url('/img/${arr_of_images[count]}')`;
+        carousel_section.style.backgroundImage = `url('https://camsteph.github.io/Drop-Shop-Store/img/${arr_of_images[count]}')`;
         first_click = false;
         // count -= 1;
     }else{
         if(right_clicked){
             count -= 2;
             if(count < 0) count += 2;
-            carousel_section.style.backgroundImage = `url('/img/${arr_of_images[count]}')`;
+            carousel_section.style.backgroundImage = `url('https://camsteph.github.io/Drop-Shop-Store/img/${arr_of_images[count]}')`;
             right_clicked = false;
         }else{
             count -= 1;
             if(count < 0) count = 3;
-            carousel_section.style.backgroundImage = `url('/img/${arr_of_images[count]}')`;
+            carousel_section.style.backgroundImage = `url('https://camsteph.github.io/Drop-Shop-Store/img/${arr_of_images[count]}')`;
         }
     }
     
@@ -474,15 +474,15 @@ const handle_right_click = () => {
             count -= 2;
             if(count == -2) count = 0;
             if(count == -1) count = 1;
-            carousel_section.style.backgroundImage = `url('/img/${arr_of_images[count]}')`;
+            carousel_section.style.backgroundImage = `url('https://camsteph.github.io/Drop-Shop-Store/img/${arr_of_images[count]}')`;
             left_clicked = false;
         }else{
-            carousel_section.style.backgroundImage = `url('/img/${arr_of_images[count]}')`;
+            carousel_section.style.backgroundImage = `url('https://camsteph.github.io/Drop-Shop-Store/img/${arr_of_images[count]}')`;
             count += 1;
         }
     }else{
         count = 0;
-        carousel_section.style.backgroundImage = `url('/img/${arr_of_images[count]}')`;
+        carousel_section.style.backgroundImage = `url('https://camsteph.github.io/Drop-Shop-Store/img/${arr_of_images[count]}')`;
     }
 };
 
