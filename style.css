@@ -90,7 +90,7 @@ select {
 .container .carousel-section {
   width: 100%;
   height: 60vh;
-  background-image: url("/img/lady-pink.jpg");
+  background-image: url("https://camsteph.github.io/Drop-Shop-Store/img/lady-pink.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
