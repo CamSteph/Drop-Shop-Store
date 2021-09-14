@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Shop | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="container" data-container>
+        <!-- header -->
+        <header class="header-section" data-header>
+            <div class="logo-section">
+                <img src="/img/shopping-store.png" alt="Store">
+                <h2 class="logo-title">Drop Shop</h2>
+            </div>
+            <div class="cart-btn-section">
+                <ion-icon name="cart-outline"></ion-icon>
+                <span data-current-cart>0</span>
+            </div>
+        </header>
+        <!-- carousel -->
+        <aside class="carousel-section" data-carousel>
+            <button class="left-button" data-left-btn><ion-icon name="arrow-back-outline"></ion-icon></button>
+            <button class="right-button" data-right-btn><ion-icon name="arrow-forward-outline"></ion-icon></button>
+        </aside>
+        <!-- shop section -->
+        <main class="shop-section">
+            <h2 class="shop-section-title">Store</h2>
+            <div class="product-wrap">
+                <div class="product">
+                    <img src="/img/shoes.jpg" alt="">
+                    <h3 class="product-title">LV Jordan 1's - Mens</h3>
+                    <span class="product-price">$199.95</span>
+                    <select name="quantity" id="quantity" class="quanity-select">
+                        <option value="0">Select quantity</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="size-select" name="size" data-size required>
+                        <option value="1">Size 8</option>
+                        <option value="2">Size 9</option>
+                        <option value="3">Size 10</option>
+                    </select>
+                    <button class="add-to-cart-btn" data-add-to-cart>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="/img/jeans.jpg" alt="">
+                    <h3 class="product-title">Women's Skinny Jeans</h3>
+                    <span class="product-price">$29.95</span>
+                    <select name="quantity" id="quantity" class="quanity-select">
+                        <option value="0">Select quantity</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="size-select" name="size" data-size required>
+                        <option value="1">Size S</option>
+                        <option value="2">Size M</option>
+                        <option value="3">Size L</option>
+                    </select>
+                    <button class="add-to-cart-btn" data-add-to-cart>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="/img/sweater.jpg" alt="">
+                    <h3 class="product-title">Women's '21 Fall Sweater</h3>
+                    <span class="product-price">$34.95</span>
+                    <select name="quantity" id="quantity" class="quanity-select">
+                        <option value="0">Select quantity</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="size-select" name="size" data-size required>
+                        <option value="1">Size S</option>
+                        <option value="2">Size M</option>
+                        <option value="3">Size L</option>
+                    </select>
+                    <button class="add-to-cart-btn" data-add-to-cart>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="/img/watch.jpg" alt="">
+                    <h3 class="product-title">Fitness Band</h3>
+                    <span class="product-price">$99.95</span>
+                    <select name="quantity" id="quantity" class="quanity-select">
+                        <option value="0">Select quantity</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="size-select" name="size" data-size required>
+                        <option value="1">Size S</option>
+                        <option value="2">Size M</option>
+                        <option value="3">Size L</option>
+                    </select>
+                    <button class="add-to-cart-btn" data-add-to-cart>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="/img/hat.jpg" alt="">
+                    <h3 class="product-title">Pink & White Striped Hat</h3>
+                    <span class="product-price">$17.95</span>
+                    <select name="quantity" id="quantity" class="quanity-select">
+                        <option value="0">Select quantity</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="size-select" name="size" data-size required>
+                        <option value="1">Size S</option>
+                        <option value="2">Size M</option>
+                        <option value="3">Size L</option>
+                    </select>
+                    <button class="add-to-cart-btn" data-add-to-cart>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="/img/glasses.jpg" alt="">
+                    <h3 class="product-title">Sun Glasses</h3>
+                    <span class="product-price">$9.95</span>
+                    <select name="quantity" id="quantity" class="quantity-select">
+                        <option value="0">Select quantity</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="size-select" name="size" data-size required>
+                        <option value="1">Size S</option>
+                        <option value="2">Size M</option>
+                        <option value="3">Size L</option>
+                    </select>
+                    <button class="add-to-cart-btn" data-add-to-cart>Add to Cart</button>
+                </div>
+            </div>
+        </main>
+        <!-- cart section -->
+        <div class="cart-table-section">
+            <h2 class="cart-title">Cart</h2>
+            <table data-cart-table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Change Quantity</th>
+                    <th></th>
+                </tr>
+            </table>
+            <div class="total-section-wrap" data-total-wrap>
+                <span>Total: <span class="total" data-table-total>$0</span></span>
+                <button class="checkout-btn" data-checkout-btn>Check out</button>
+            </div>
+        </div>
+
+        <!-- footer section -->
+        <footer class="footer-section">
+            <div class="left-side">
+                <h3 class="footer-title">Drop Shop &copy;</h3>
+            </div>
+            <div class="right-side">
+                <h3 class="powered-by">Powered by: HTML, CSS, and JavaScript</h3>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
